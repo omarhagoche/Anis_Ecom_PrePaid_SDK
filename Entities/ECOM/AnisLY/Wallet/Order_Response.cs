@@ -61,7 +61,7 @@ namespace PrePaid_SDK.Entities.ECOM.AnisLY.Wallet
             public string CategoryName { get; set; }
 
             [JsonPropertyName("virtualCost")]
-            public int VirtualCost { get; set; }
+            public string VirtualCost { get; set; }
 
             [JsonPropertyName("price")]
             public double Price { get; set; }
@@ -70,10 +70,10 @@ namespace PrePaid_SDK.Entities.ECOM.AnisLY.Wallet
             public string SecretNumber { get; set; }
 
             [JsonPropertyName("printNote")]
-            public object PrintNote { get; set; }
+            public string PrintNote { get; set; }
 
             [JsonPropertyName("arabicDisclaimerNote")]
-            public object ArabicDisclaimerNote { get; set; }
+            public string ArabicDisclaimerNote { get; set; }
 
             [JsonPropertyName("englishDisclaimerNote")]
             public string EnglishDisclaimerNote { get; set; }
@@ -82,7 +82,7 @@ namespace PrePaid_SDK.Entities.ECOM.AnisLY.Wallet
             public string SerialNumber { get; set; }
 
             [JsonPropertyName("expireDate")]
-            public object ExpireDate { get; set; }
+            public string ExpireDate { get; set; }
 
             [JsonPropertyName("soldAt")]
             public DateTime SoldAt { get; set; }

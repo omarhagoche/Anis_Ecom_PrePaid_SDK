@@ -13,10 +13,13 @@ namespace PrePaid_SDK.Entities.DB.PrePaidCardsSystemDB.Inventory
 		public string CardEnglishName { get; set; }
 		public long SubCategoryID_FK { get; set; }
 		public int CurrencyTypeID_FK { get; set; }
-		public decimal CardCost { get; set; }
-		public decimal CardFaceValue { get; set; }
+		public double CardCost { get; set; }
+		public string CardFaceValue { get; set; }
 		public string CardPrintName { get; set; }
 		public string CardNote { get; set; }
 		public bool Card_Available { get; set; }
+
+		public byte[] SubGategory_Logo { get; set; }
+		public string SubCategoryCode { get; set; }
 	}
 }

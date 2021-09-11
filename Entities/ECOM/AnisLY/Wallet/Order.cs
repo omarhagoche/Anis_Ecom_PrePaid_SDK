@@ -21,5 +21,8 @@ namespace PrePaid_SDK.Entities.ECOM.AnisLY.Wallet
 
         [JsonPropertyName("pinNumber")]
         public string PinNumber { get; set; }
+
+        [JsonPropertyName("orderId")]
+        public string orderId { get; set; }
     }
 }

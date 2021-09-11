@@ -13,5 +13,6 @@ namespace PrePaid_SDK.Entities.DB.PrePaidCardsSystemDB.Inventory
 		public string CategoryDescription { get; set; }
 		public byte[] Category_Logo { get; set; }
 		public bool? Category_Available { get; set; }
-	}
+        public int UsageCounter { get; set; }
+    }
 }
