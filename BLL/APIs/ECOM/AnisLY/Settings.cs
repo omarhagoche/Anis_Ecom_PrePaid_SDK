@@ -18,8 +18,7 @@ namespace PrePaid_SDK.BLL.APIs.ECOM.AnisLY
         }
         public enum Services
         {
-            Anis,
-            Umbrella
+            Anis
         }
     }
 }

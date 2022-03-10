@@ -3,24 +3,24 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <ApplicationIcon>SDK_icon.ico</ApplicationIcon>
-    <PackageIcon>sdk.png</PackageIcon>
+    <PackageIcon>131984368_176837397471892_1260203045342346571_n.jpg</PackageIcon>
     <PackageIconUrl />
     <RepositoryUrl>https://github.com/omarhagoche/AsaryaSoft_PrePaid_SDK</RepositoryUrl>
-    <Company>AsaryaSoft Ltd.</Company>
-    <Authors>AsaryaSoft Ltd.</Authors>
+    <Company></Company>
+    <Authors>Omar Hagoche</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageId>Hagoche.Ecom.Anis.PrePaid_SDK</PackageId>
+    <Description>PrePaid SDK For Ecom Anis System</Description>
+    <NeutralLanguage>ar</NeutralLanguage>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Anis,Ecom,PrePaid,SDK</PackageTags>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebugType>full</DebugType>
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Include="..\..\..\Downloads\sdk.png">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
@@ -42,6 +42,13 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Downloads\131984368_176837397471892_1260203045342346571_n.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
